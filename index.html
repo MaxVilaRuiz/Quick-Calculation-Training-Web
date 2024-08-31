@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quick Calculation Training</title>
-
+    
     <link rel="stylesheet" href="./style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 
 
@@ -18,10 +22,13 @@
 
     <main>
         <form class="form">
-            <p class="operation"><span id="operation">hello world</span></p>
-            <input class="input" type="text" placeholder="Introduzca la respuesta">
-            <button class="button" onclick="">Corregir</button>
+            <p class="operation"><span id="operation"></span></p>
+        
+            <input class="input" id="input" type="text" placeholder="Write the answer">
+            <button class="button" type="button" onclick="correct()">Correct</button>
         </form>
     </main>
+
+    <script src="./functions.js"></script>
 </body>
 </html>

@@ -1,3 +1,12 @@
+/* Global */
+:root{
+    --primay-font: "Rubik";
+}
+p{
+    font-family: var(--primay-font);
+}
+
+
 /* Header */
 header{
     text-align: center;
@@ -5,10 +14,14 @@ header{
 
 .title{
     font-size: 3rem;
+    font-family: var(--primay-font);
+    font-weight: 500;
 }
 
 .statement{
-    margin-top: -1rem;
+    margin-top: -1.25rem;
+    font-family: var(--primay-font);
+    font-weight: 400;
     font-style: italic;
 }
 
@@ -22,8 +35,8 @@ header{
 
 .operation{
     text-align: center;
-    font-size: 3rem;
-    margin-bottom: 2rem;
+    font-size: 2.75rem;
+    margin-bottom: 1.75rem;
 }
 
 .input{
@@ -32,7 +45,8 @@ header{
     padding-left: .25rem;
 }
 .input::placeholder{
-    font-size: .85rem;
+    font-size: .9rem;
+    font-family: var(--primay-font);
     padding-left: .25rem;
 }
 
