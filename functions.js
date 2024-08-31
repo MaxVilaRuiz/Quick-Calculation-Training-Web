@@ -64,6 +64,6 @@ function correct() {
         location.reload(); // The page is reloaded to generate a new operation. 
     }
     else {
-        alert('The answer is no correct, try again.');
+        alert('The answer is not correct, try again.');
     }
 }
