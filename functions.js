@@ -51,6 +51,7 @@ function operationMaker() {
 
 
 
+// Declaration of functions
 symbol();
 operationMaker();
 
